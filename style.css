@@ -12,11 +12,13 @@ body{
   
 }
 .img{
-  margin: 30px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   align-items: center;
   display: flex;
   width: 520px;
-  height: 400px;
+  height: 320px;
   }
   .p{
    font-size: 15pt;
