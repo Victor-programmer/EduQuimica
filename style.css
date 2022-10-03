@@ -70,6 +70,7 @@ h2{
    margin-top: 5vh;
 }
 .p1{
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   display: flex;
   margin-top: 3vh;
   margin-right: 5vh;
