@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -7,106 +8,31 @@ main{
   margin-left: 150px;
   margin-right: 165px;
 }
-body{
-  font-family:system-ui, -apple-system, Helvetica, Arial, sans-serif ;
-  
-}
-.img{
-  margin-left: 125px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  align-items: center;
-  display: flex;
-  width: 510px;
-  height: 380px;
-  }
-  .p{
-   font-size: 15pt;
-   text-align: justify;
-   text-indent: 20px;
 
-    
-  }
-
-.ComoORio{
-  font-size: 15pt;
-  margin-top: 30px;
-  display: flex;
-  text-align: justify;
-}
-.Rio{
-  margin-right: 50px;
-  margin-left: 50px;
-  width: 350px;
-}
-.p2{
-  font-size: 15pt;
-  display: flex;
-  margin-top: 40px;
-  text-indent: 20px;
-  text-align: justify;
-}
-.imgEspumaInvadindo{
-  margin-right: 30px;
-  display: flex;
-  width: 400px ;
- 
-}
-.poluicao{
-  
-  font-size: 35px;
-  margin-top: 80px;
-  text-align: center;
-}
-.poluentesdeter{
-  
-  font-size: 35px;
-  text-align: center;
-   margin-top: 5vh;
-}
-h2{
-  font-size: 25px;
-  text-align: center;
-   margin-top: 5vh;
-}
-.p1{
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  display: flex;
-  margin-top: 3vh;
-  margin-right: 5vh;
-  font-size: 15pt;
-  text-indent: 20px;
-  text-align: justify;
-}
 body{
-background-image: url(fundo.jpg);
-background-repeat: repeat;
+
+background-color: #DFFAFA;
 background-size: cover;
-background-position: center center;
-height: 92vh;
 
 }
 a {
-  color: #fff;
+  color:  rgb(0, 0, 0);
   text-decoration: none;
   transition: 0.3s;
   
 }
 a:hover {
   opacity: 0.7;
+  color:#0CA2C7;
 }
-.logo {
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
+
 .log{
-  position: -ms-page;
-  max-width: 10vh;
-  margin-top: 5px;
-  margin-left: 0;
-  margin-right: 8vh;
-  height: 10vh;
+  margin-top: 11px;
+  height: 40px;
+  width: 200px;
+  left: 21px;
+  top: 0px;
+  border-radius: 0px;
 }
 nav {
   position: fixed;
@@ -119,12 +45,10 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #329adf;
+  background: #DFFAFA;
   height: 10vh;
 }
-.principal{
-  padding: 16px;
-}
+
 .nav-list {
   list-style: none;
   display: flex;
@@ -143,11 +67,68 @@ nav {
 .mobile-menu div {
   width: 32px;
   height: 2px;
-  background: #fff;
+  background:  rgb(0, 0, 0);
   margin: 8px;
   transition: 0.3s;
 }
+/*BOTÂO*/
+.btnSaibaMais:hover{
+  transition: background-color 0.55s;
+  background-color: #0CA2C7;
+}
 
+.btnSaibaMais{
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  text-align: center;
+  margin-top: 550px;
+  margin-left: 300px;
+  padding: 10px 8px;
+  max-width: 200px;
+  min-width: 160px;
+  background: #000000;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+ /*CSS HOME*/
+ .secaoHome1{
+  position: fixed;
+  width: 60vw;
+  left: 70px;
+  top: 200px;
+  font-family: 'Noto Serif', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4vw;
+  color: #000000;
+  }
+  .secaoHome2{
+      position:fixed;
+      width: 30vw;
+      top:370px;
+      font-family: 'Sanchez';
+      font-style: italic;
+      font-weight: 400;
+      font-size: 2vw;
+      
+      left: 725px;
+      color: #000000;
+  }
+  .secaoHome2 a{
+      color: #0e1ea8;
+      text-decoration: none;
+      transition: 0.3s;
+  }
+  .secaoHome2 a:hover {
+      opacity: 0.7;
+  }
+  /*Serviços*/
+  
 @media (max-width: 999px) {
   body {
     overflow-x: hidden;
@@ -158,24 +139,80 @@ nav {
     right: 0;
     width: 50vw;
     height: 92vh;
-    background: #3b8dbd;
+    background: #0CA2C7;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
+    
   }
   .nav-list li {
     margin-left: 0;
-    opacity: 0;
+    
   }
   .mobile-menu {
     display: block;
+  }
+  a {
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.3s;
+    
+  }
+  a:hover {
+    opacity: 0.7;
+    color: #000000;
   }
   img{
     
     width: 350px;
     }
+
+    .btnSaibaMais{
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+      position: absolute;
+      text-align: center;
+      margin-top: 430px;
+      margin-left: 10px;
+      padding: 10px 8px;
+      max-width: 200px;
+      min-width: 160px;
+      background: #000000;
+      border-radius: 10px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 23px;
+      z-index: 0;
+    }
+    /*CSS HOME*/
+    .secaoHome1{
+      position: absolute;
+      width: 80vw;
+      left: 70px;
+      top: 200px;
+      font-family: 'Noto Serif', serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 5vw;
+      color: #000000;
+      }
+    .secaoHome2{
+
+      position: absolute;
+      width: 40vw;
+      top:370px;
+      font-family: 'Sanchez';
+      font-style: italic;
+      font-weight: 400;
+      font-size: 4vw;
+      left: 200px;
+      color: #000000;
+  }
+ 
 }
 
 .nav-list.active {
@@ -204,3 +241,4 @@ nav {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
+
